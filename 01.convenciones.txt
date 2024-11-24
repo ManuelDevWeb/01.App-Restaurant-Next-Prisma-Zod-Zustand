@@ -1,0 +1,8 @@
+Convenciones de Archivos en Next (.js, .jsx o .tsx)
+
+layout -> Diseno global que comparte una URL o sus segmentos hijos
+page -> Diseno unico para una URL
+loading -> Componente que se muestra mientras se carga una pagina con suspense
+not-found -> Componente que se muestra cuando un recurso no es encontrado - 404
+error -> Componente que se muestra cuando hay errores inesperados
+route -> Componente para Endpoint de REST API

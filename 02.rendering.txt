@@ -1,0 +1,21 @@
+Rendering en Next (Componentes del cliente y servidor)
+
+- Server Components: Todos los components se ejecutan por default en el servidor
+- Client Components: Para que se ejecute un componente en el client debemos agregar 'use client'
+
+Notas: 
+- Primero se ejecutan los componentes de Server y luego los de Client
+- Si un padre es Client, sus componentes hijos pasan a ser Client
+- Un componente de Servidor puede renderizar componentes Client
+
+Cuando utiliza Server Components?
+- Para obtener datos desde un ORM y mostrar la informacion
+- Ejecutar funciones del servidor y acceder a recursos unicamente en el backend
+- Autenticacion, API Keys o Tokends
+
+Cuando utiliza Client Components?
+- Cuando deseamos utilizar evcentos a las aplicaciones por medio de onClick, onSubmit, onChange, etc
+- Si deseamos utilizar los hooks de React como useState, useEffect y useReducer
+- Utilizar librerias que no se ejecutan en el servidor
+- APIs del navegador como LocalStorage, Notification API, Geolocalizacion API 
+- Consumir datos de una API externa en JSON

@@ -1,0 +1,21 @@
+1. npx create-next-app@latest
+
+2. Inicializar y anclar al repositorio
+
+3. Hacer limpieza en los archivos global.css, tailwind.config.ts, y el page.tsx
+
+4. Crear la carpeta y el archivo para la ruta /products: products/page.tsx
+
+5. Crear la carpeta y el archivo para la ruta /products/new: products/new/page.tsx 
+
+6. Crear la carpeta y el archivo para la ruta /order: order/page.tsx
+
+7. Crear el layour para los archivos y rutas dentro de order: order/layout.tsx
+
+8. Crear la carpeta: components
+
+9. Crear la carpeta: components/order
+
+10. Crear el componente: components/order/OrderSidebar.tsx
+
+11. Crear el componente: components/order/OrderSummary.tsx
