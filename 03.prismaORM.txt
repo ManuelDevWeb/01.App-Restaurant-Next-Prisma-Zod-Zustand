@@ -1,0 +1,19 @@
+Prisma
+
+ORM open source que se puede utilizar con JavaScript o TypeScript
+
+Herramientas Prisma:
+- Prisma Client: Es el Query Builder o la herramienta que te permite consultar a tu base de datos,
+  soporta Node.js y TypeScript, se puede utilizar con Next.js sin ningun problema
+- Prisma Migrate: En Prisma puedes definir tus tablas y relaciones, esta herramienta se encarga de
+  generar toda la base de datos por ti.
+- Prisma Studio: Es la unica herramienta de Prisma que no es Open Source, pero sepuede utilizar 
+  localmente, es para ver tu base de datos.
+
+Bases de Datos soportadas: 
+- MariaDB
+- SQL Server
+- MongoDB (Mejor moongose)
+- MySQL
+- PostgresSQL
+- SQL Lite

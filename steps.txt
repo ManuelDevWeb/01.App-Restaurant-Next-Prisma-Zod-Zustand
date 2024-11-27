@@ -1,3 +1,5 @@
+-- Initial Steps --
+
 1. npx create-next-app@latest
 
 2. Inicializar y anclar al repositorio
@@ -19,3 +21,29 @@
 10. Crear el componente: components/order/OrderSidebar.tsx
 
 11. Crear el componente: components/order/OrderSummary.tsx
+
+-- Prisma ORM -
+
+12. Instalar las dependencias: npm i @prisma/client
+
+13. Instalar las dependencias: npm i -D prisma
+
+14. Inicializar prisma: npx prisma init
+
+15. Ir a Render y crear una DB de tipo PostgresSQL, tomar las credenciales y agregarlas en los archivos correspondientes
+
+Nota: Para abrir prisma studio, ejecutar el comando -> npx prisma studio
+
+16. Crear nuestras tablas y relaciones de la DB en el archivo: schema.prisma 
+
+Nota: Para crear la migracion, ejecutar el comando -> npx prisma migrate dev
+
+17. Instalar la dependencia: npm i -D ts-node
+
+18. Realizamos Seeding a nuestra DB para moblarla de datos:
+    - Crear la carpeta: prisma/data
+    - Crear el archivo: prisma/data/categories.ts
+    - Crear el archivo: prisma/data/products.ts
+    - Crear el archivo: prisma/seed.ts
+    - Agregar el script en el archivo: package.json
+    - Correr el comando: npx prisma db seed
