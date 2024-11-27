@@ -1,0 +1,6 @@
+Data Fetching en Next.js
+
+- En el servidor con fetch()
+- En el servidor con un ORM o consultas SQL
+- En el cliente con un Route Handler y una peticion GET
+- En el cliente con React Query, Axios, SWR u otras opciones

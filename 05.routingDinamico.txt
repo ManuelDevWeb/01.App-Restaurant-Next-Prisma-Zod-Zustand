@@ -1,0 +1,13 @@
+Routing Dinamico en Next.js
+
+Muchas veces queremos acceder a un recurso en la Db por su ID o por su 
+slug, ya sea para ver los detaller de un producto, leer una entrada de
+blod o datos de un cliente.
+
+En App Router la forma en la que generamos el Routing dinamico es con
+una carpeta y un nombre entre corchetes, ejemplo: [id], [slug], [paymentId], etc.
+
+Ejemplo: products/20
+
+Tendriamos una carpeta products y adentro una carpeta [id], dentro de esta 
+ultima creamos la page.

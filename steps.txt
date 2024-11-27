@@ -47,3 +47,15 @@ Nota: Para crear la migracion, ejecutar el comando -> npx prisma migrate dev
     - Crear el archivo: prisma/seed.ts
     - Agregar el script en el archivo: package.json
     - Correr el comando: npx prisma db seed
+
+-- Categorias --
+
+19. Crear la carpeta: src/lib
+
+20. Crear el archivo para la conexion de prisma: src/lib/prisma.ts
+
+21. Crear la capreta: components/ui 
+
+22. Crear el componente: components/ui/NavItemIcon.tsx
+
+23. Crear la capreta y el archivo para las rutas /order/[category]: order/[category]/page.tsx
