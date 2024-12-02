@@ -1,14 +1,9 @@
-import { prisma } from '@/src/lib/prisma';
+import CategoriesService from '@/app/services/categoriesService';
 import NavItemIcon from '../ui/NavItemIcon';
 
-// Fetching categories desde el servidor
-async function getCategories(){
-  return await prisma.category.findMany();
-}
 
 const OrderSidebar = async () => {
-  const categories = await getCategories();
-  console.log(categories);
+  const categories = await CategoriesService.getCategories();
 
   return (
     <aside className="md:w-72 md:h-screen bg-white">

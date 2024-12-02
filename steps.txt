@@ -54,8 +54,22 @@ Nota: Para crear la migracion, ejecutar el comando -> npx prisma migrate dev
 
 20. Crear el archivo para la conexion de prisma: src/lib/prisma.ts
 
-21. Crear la capreta: components/ui 
+21. Crear la carpeta y el archivo para fetching de categorias: src/services/categoriesService.ts
 
-22. Crear el componente: components/ui/NavItemIcon.tsx
+22. Crear la carpeta: components/ui 
 
-23. Crear la capreta y el archivo para las rutas /order/[category]: order/[category]/page.tsx
+23. Crear el componente: components/ui/NavItemIcon.tsx
+
+24. Crear la carpeta y el archivo para fetching de productos: src/services/productsService.ts
+
+25. Crear la carpeta y el archivo para las rutas /order/[category]: order/[category]/page.tsx
+
+26. Crear la carpeta: components/products 
+
+27. Crear el componente: components/products/ProductCard.tsx
+
+28. Crear la carpeta: src/utils
+
+29. Crear el archivo: src/utils/index.ts
+
+

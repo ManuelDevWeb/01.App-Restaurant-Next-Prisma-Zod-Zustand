@@ -11,10 +11,10 @@ Notas:
 Cuando utiliza Server Components?
 - Para obtener datos desde un ORM y mostrar la informacion
 - Ejecutar funciones del servidor y acceder a recursos unicamente en el backend
-- Autenticacion, API Keys o Tokends
+- Autenticacion, API Keys o Tokens
 
 Cuando utiliza Client Components?
-- Cuando deseamos utilizar evcentos a las aplicaciones por medio de onClick, onSubmit, onChange, etc
+- Cuando deseamos utilizar eventos a las aplicaciones por medio de onClick, onSubmit, onChange, etc
 - Si deseamos utilizar los hooks de React como useState, useEffect y useReducer
 - Utilizar librerias que no se ejecutan en el servidor
 - APIs del navegador como LocalStorage, Notification API, Geolocalizacion API 

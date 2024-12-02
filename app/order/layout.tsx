@@ -6,7 +6,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <>
-      <div className="md:flex gap-2">
+      <div className="md:flex">
         <OrderSidebar />
        
         <main className="flex-1 md:h-screen md:overflow-y-scroll p-5 border bg-gray-100">
