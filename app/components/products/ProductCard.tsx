@@ -1,12 +1,15 @@
+'use client'
 import Image from "next/image";
 import { formatCurrency } from "@/src/utils";
+import AddProduct from "./AddProductButton";
 
 type ProductCardProps = {
     product: {
         id: number;
         name: string;
         price: number;
-        image: string
+        image: string;
+        categoryId: number;
     }
 };
 
@@ -17,9 +20,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
             <div>
               <h3 className="text-base font-bold line-clamp-1">{product.name}</h3>
               <p className="font-black text-xl text-amber-500">{formatCurrency(product.price)}</p>
-              <button type="button" className="bg-indigo-600 hover:bg-indigo-800 text-white w-28 mt-5 p-1 rounded-full">
-                Agregar
-              </button>
+              <AddProduct product={product} />
             </div>
             <Image 
               className="rounded-xl" 

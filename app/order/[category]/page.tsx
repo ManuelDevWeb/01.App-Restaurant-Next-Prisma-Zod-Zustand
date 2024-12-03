@@ -3,7 +3,9 @@ import ProductCard from "@/app/components/products/ProductCard";
 
 // Params tiene mucha información, como el path, el query, etc.
 const OrderPage = async ({ params }: { params: { category: string } }) => {
-  const products = await ProductsService.getProductByCategory(params.category);
+  const { category } = await params;
+
+  const products = await ProductsService.getProductByCategory(category);
 
   return (
     <>

@@ -48,7 +48,7 @@ Nota: Para crear la migracion, ejecutar el comando -> npx prisma migrate dev
     - Agregar el script en el archivo: package.json
     - Correr el comando: npx prisma db seed
 
--- Categorias --
+-- Categorias y Productos --
 
 19. Crear la carpeta: src/lib
 
@@ -72,4 +72,16 @@ Nota: Para crear la migracion, ejecutar el comando -> npx prisma migrate dev
 
 29. Crear el archivo: src/utils/index.ts
 
+-- Store Zustand --
 
+30. Instalar zustand: npm i zustand
+
+31. Crear el archivo: src/store.ts
+
+32. Crear la carpeta: src/types
+
+33. Crear el archivo: src/types/index.ts
+
+34. Crear el componente: components/order/ProductDetails.ts
+
+35. Instalar heroicons: npm i @heroicons/react
