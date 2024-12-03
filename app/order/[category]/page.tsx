@@ -1,4 +1,4 @@
-import ProductsService from "@/app/services/productsService";
+import ProductsService from "@/src/services/productsService";
 import ProductCard from "@/app/components/products/ProductCard";
 
 // Params tiene mucha información, como el path, el query, etc.

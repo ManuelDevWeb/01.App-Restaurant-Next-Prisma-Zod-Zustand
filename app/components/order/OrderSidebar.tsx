@@ -1,4 +1,4 @@
-import CategoriesService from '@/app/services/categoriesService';
+import CategoriesService from '@/src/services/categoriesService';
 import NavItemIcon from '../ui/NavItemIcon';
 
 
