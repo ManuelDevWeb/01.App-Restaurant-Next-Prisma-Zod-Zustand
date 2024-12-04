@@ -1,7 +1,6 @@
 import CategoriesService from '@/src/services/categoriesService';
 import NavItemIcon from '../ui/NavItemIcon';
 
-
 const OrderSidebar = async () => {
   const categories = await CategoriesService.getCategories();
 
