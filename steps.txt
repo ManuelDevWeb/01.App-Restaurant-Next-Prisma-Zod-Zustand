@@ -85,3 +85,11 @@ Nota: Para crear la migracion, ejecutar el comando -> npx prisma migrate dev
 34. Crear el componente: components/order/ProductDetails.ts
 
 35. Instalar heroicons: npm i @heroicons/react
+
+-- Ordenes --
+
+36. Crear el schema en el archivo: prisma/schema
+
+37. Crear la carpeta: actions 
+
+38. Crear el archivo: actions/create-order-action.ts

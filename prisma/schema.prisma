@@ -25,4 +25,29 @@ model Product {
   categoryId  Int
    // Relacion con categoria 1-1
   category  Category  @relation(fields: [categoryId], references: [id])
+  // Relacion con orderProduct 1-many
+  orderItems OrderProducts[]
+}
+
+// Modelo Order
+model Order {
+  id Int @id @default(autoincrement())
+  name String
+  total Float
+  date  DateTime @default(now())
+  status Boolean @default(false)
+  orderReadyAt DateTime?
+  // Relacion con orderProduct 1-many
+  orderProducts OrderProducts[]
+}
+
+// Modelo OrderProducts (Tabla intermedia relacion muchos a muchos order-product)
+model OrderProducts {
+  id Int @id @default(autoincrement())
+  // Relacion con order 1-1
+  orderId Int
+  order Order @relation(fields: [orderId], references: [id])
+  // Relacion con product 1-1
+  productId Int
+  product Product @relation(fields: [productId], references: [id])
 }
